@@ -34,3 +34,12 @@ form{
    border: 0.6rem outset #abe8b5;
 }
 ~~~
+
+*  Para maior controle de números, utilizo de 'min' ou 'max', a fim de regular os números que podem ser preenchidos pelo usuário.
+~~~ Código:
+<div>
+      <label for="idade"> Idade: </label>
+      <input type="number" id="idade" name="user_age" min="1" max="100"/>
+    </div>
+~~~
+[Link para visualização do código](https://replit.com/@biaf0949/Formulario)
